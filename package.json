@@ -1,0 +1,31 @@
+{
+  "name": "ncoin",
+  "version": "1.0.0",
+  "description": "Digital coin backed by blockchain tech",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikku120120/NCoin.git"
+  },
+  "keywords": [
+    "ncoin"
+  ],
+  "author": "Nithish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikku120120/NCoin/issues"
+  },
+  "homepage": "https://github.com/Nikku120120/NCoin#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0"
+  }
+}
